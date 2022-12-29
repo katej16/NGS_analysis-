@@ -11,7 +11,7 @@ import logging
 import argparse
 import subprocess
 import urllib.request
-
+#written by Vikas Peddu and edited by Quynh Phung in the Greninger Laboratory
 # Example Command: 
 # python3 autotrim.py --trimmomatic "-phred33 -threads 8 ILLUMINACLIP:adapters.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:75" ----fastqc TRUE
 
